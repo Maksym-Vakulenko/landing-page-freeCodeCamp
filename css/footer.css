@@ -1,0 +1,8 @@
+.footer {
+    background-color: var(--bg-header);
+    padding: 30px 0;
+}
+
+.footer__text {
+    color: var(--accent-color-text);
+}

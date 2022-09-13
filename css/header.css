@@ -15,13 +15,11 @@
     flex: 0 0 30%;
     font-size: 30px;
     font-weight: 700;
-    
 }
 
 .menu {
     flex: 1 0 70%;
     display: flex;
     justify-content: space-evenly;
-    font-weight: 700;
-    
+    font-weight: 700;  
 }

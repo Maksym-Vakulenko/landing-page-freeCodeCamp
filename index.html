@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <title>HostikUA</title>
 </head>
@@ -19,18 +20,220 @@
                 <a href="#">HostikUA</a>
             </div>
             <nav class="menu">
-                <a href="#" class="menu-link">Послуги</a>
-                <a href="#" class="menu-link">Відео</a>
-                <a href="#" class="menu-link">Тарифи</a>
+                <a href="#service" class="menu-link">Послуги</a>
+                <a href="#video" class="menu-link">Відео</a>
+                <a href="#tariffs" class="menu-link">Тарифи</a>
             </nav>
         </header>
         <!-- /.header -->
         <main class="main">
+            <section class="discount">
+                <div class="container">
+                    <div class="discount__inner">
+                        <h2 class="discount__title">Хочу знижку</h2>
+                        <p class="discount__text">Кожного дня наші клієнти отримують знижки від 10 до 30 %</p>
+                        <form action="/" class="form">
+                            <div class="form-group">
+                                <input class="input" type="text" placeholder="Ім'я">
+                            </div>
+                            <div class="form-group">
+                                <input class="input" type="email" placeholder="E-mail">
+                            </div>
+                            <button class="btn" type="submit">Отримати знижку 30%</button>
+                        </form>
+                    </div>
+                    <!-- /.discount__inner -->
+                </div>
+                <!-- /.container -->
+            </section>
+            <!-- /.discount -->
 
+            <section id="service" class="service">
+                <div class="container">
+                    <div class="services__inner">
+                        <h2 class="services__title">
+                            Український хостинг від HostikUA —
+                            усі послуги в одній компанії
+                        </h2>
+                        <!-- /.services__title -->
+                        <div class="services__cards">
+                            <div class="services__card">
+                                <div class="services__card-img">
+                                    <img src="images/servuces/img-servi.svg" alt="">
+                                </div>
+                                <div class="services__card-info">
+                                    <h3 class="services__card-title">Віртуальний хостинг</h3>
+                                    <p class="services__card-text">Shared hosting або віртуальний хостинг сайтів —
+                                        недорогий варіант розміщення сайту. На HOSTiQ.ua ви знайдете хостинг із
+                                        потрібними параметрами для вашого сайту й при цьому не переплачуватимете. У
+                                        кожному пакеті віртуального хостингу є: панель керування, автовстановлювач CMS,
+                                        необмежений трафік і цілодобова служба підтримки. Спробуйте найкращий
+                                        український хостинг безкоштовно з тестовим періодом.</p>
+                                </div>
+                            </div>
+                            <div class="services__card">
+                                <div class="services__card-img">
+                                    <img src="images/servuces/img-servi2.svg" alt="">
+                                </div>
+                                <div class="services__card-info">
+                                    <h3 class="services__card-title">Домени</h3>
+                                    <p class="services__card-text">Ми реєструємо домени в 1240 доменних зонах. Ви можете
+                                        зареєструвати домен окремо від хостингу та керувати ним на власних DNS-серверах
+                                        чи придбати хостинг і отримати домен безкоштовно в подарунок. Реєструємо домени
+                                        в стислі терміни..</p>
+                                </div>
+                            </div>
+                            <div class="services__card">
+                                <div class="services__card-img">
+                                    <img src="images/servuces/img-servi3.svg" alt="">
+                                </div>
+                                <div class="services__card-info">
+                                    <h3 class="services__card-title">SSL</h3>
+                                    <p class="services__card-text">Разом із хостингом і доменом можна придбати
+                                        SSL-сертифікат, щоб інформація ваших клієнтів або відвідувачів передавалася
+                                        безпечно. Сертифікат можна отримати в подарунок до хостингу або придбати його
+                                        окремо. Служба підтримки допоможе випустити й установити сертифікат на наш
+                                        хостинг.</p>
+                                </div>
+                            </div>
+                            <div class="services__card">
+                                <div class="services__card-img">
+                                    <img src="images/servuces/img-servi4.svg" alt="">
+                                </div>
+                                <div class="services__card-info">
+                                    <h3 class="services__card-title">VPS-хостинг</h3>
+                                    <p class="services__card-text">VPS або віртуальний виділений сервер — рішення для
+                                        великих сайтів, яким потрібне налаштування операційної системи. На будь-якій VPS
+                                        від HOSTiQ.ua можна встановити панель керування: cPanel, Webuzo, DirectAdmin.
+                                        Сервер можна розмістити в одній із локацій: Україна, США, Нідерланди. Ми
+                                        використовуємо SSD-диски, щоб сайти клієнтів працювали швидше.</p>
+                                </div>
+                            </div>
+                            <div class="services__card">
+                                <div class="services__card-img">
+                                    <img src="images/servuces/img-servi5.svg" alt="">
+                                </div>
+                                <div class="services__card-info">
+                                    <h3 class="services__card-title">Виділений сервер</h3>
+                                    <p class="services__card-text">Виділені сервери в центрах даних США та Європи
+                                        підійдуть для сайту, що стрімко розвивається й потребує багато ресурсів. На
+                                        HOSTiQ.ua можна замовити продуктивний і швидкий виділений сервер за розумною
+                                        ціною. Адміністрування сервера входить у вартість оренди.</p>
+                                </div>
+                            </div>
+                            <div class="services__card">
+                                <div class="services__card-img">
+                                    <img src="images/servuces/img-servi6.svg" alt="">
+                                </div>
+                                <div class="services__card-info">
+                                    <h3 class="services__card-title">Хмарний хостинг</h3>
+                                    <p class="services__card-text">Український хостинг сайтів має бути не лише швидким,
+                                        але й надійним. Якщо потрібно, щоб сайт був весь час онлайн, виберіть хмарний
+                                        хостинг. Кожний файл сайту в хмарі дублюється на 3 диски-копії. Якщо один диск
+                                        раптом зламається, другий його автоматично замінить. Крім дисків-копій, ми
+                                        підстраховуємо ваші дані ще й регулярними резервними копіями.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.services__cards -->
+                    </div>
+                    <!-- /.services__inner -->
+                </div>
+                <!-- /.container -->
+            </section>
+            <!-- /.service -->
+
+            <section id="video" class="video">
+                <div class="container">
+                    <div class="video__inner">
+                        <div class="video__video">
+                            <iframe width="500" height="315"
+                                src="https://www.youtube.com/embed/krCZ97F0PH8?showinfo=0&rel=0&cc_lang_pref=uk&cc_load_policy=1">
+                            </iframe>
+                        </div>
+                        <div class="video__offer">
+                            <h3 class="video__title">
+                                Досить читати про HostikUA — створіть сайт за допомогою HostikUA
+                            </h3>
+                            <p class="video__text">
+                                Турбота починається тут — щоб клієнтам не довелося читати тисячі статей про хостинг і
+                                сайти, записали відео про найголовніше для новачків. У 6-хвилинному огляді розповіли,
+                                який хостинг підійде для старту, як вибрати та купити домен, що таке SSL-сертифікат і як
+                                завантажити або створити сайт.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- /.video__inner -->
+                </div>
+                <!-- /.container -->
+            </section>
+            <!-- /.video -->
+
+            <section id="tariffs" class="tariffs">
+                <div class="container">
+                    <div class="tariffs__inner">
+                        <h2 class="tariffs__title">
+                            Тарифи
+                        </h2>
+                        <div class="tariffs__csrds">
+                            <div class="tariffs__card">
+                                <div class="tariffs__card-img">
+                                    <img src="" alt="">
+                                </div>
+                                <h3 class="tariffs__card-title">
+                                    WordPress-хостинг
+                                </h3>
+                                <p class="tariffs__card-text">
+                                    Ідеальний для блогів і не тільки
+                                </p>
+                                <p class="tariffs__card-price">
+                                    від 187,96 грн. на місяць
+                                </p>
+                                <a href="#" class="btn">Хочу</a>
+                            </div>
+                            <div class="tariffs__card">
+                                <div class="tariffs__card-img">
+                                    <img src="" alt="">
+                                </div>
+                                <h3 class="tariffs__card-title">
+                                    WordPress-хостинг
+                                </h3>
+                                <p class="tariffs__card-text">
+                                    Ідеальний для блогів і не тільки
+                                </p>
+                                <p class="tariffs__card-price">
+                                    від 187,96 грн. на місяць
+                                </p>
+                                <a href="#" class="btn">Хочу</a>
+                            </div>
+                            <div class="tariffs__card">
+                                <div class="tariffs__card-img">
+                                    <img src="" alt="">
+                                </div>
+                                <h3 class="tariffs__card-title">
+                                    WordPress-хостинг
+                                </h3>
+                                <p class="tariffs__card-text">
+                                    Ідеальний для блогів і не тільки
+                                </p>
+                                <p class="tariffs__card-price">
+                                    від 187,96 грн. на місяць
+                                </p>
+                                <a href="#" class="btn">Хочу</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.tariffs__inner -->
+                </div>
+                <!-- /.container -->
+            </section>
+            <!-- /.tariffs -->
         </main>
         <!-- /.main -->
         <footer class="footer">
-
+            <div class="container">
+                <span class="footer__text">Copyright &#169; 2022 by Vakulenko Maksym</span>
+            </div>
         </footer>
         <!-- /.footer -->
     </div>
