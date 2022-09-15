@@ -21,3 +21,23 @@
 .services__card-info {
     flex: 0 0 80%;
 }
+
+/* Media Query */
+
+@media (max-width: 1076px) {
+    .services__card-img {
+        flex: 0 0 30%;
+    }
+
+    .services__card-info {
+        flex: 0 0 65%;
+    }
+}
+
+@media (max-width: 651px) {
+    .services__card {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+}

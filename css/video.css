@@ -1,6 +1,8 @@
 .video__inner {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    column-gap: 30px;
 }
 
 .video {
@@ -14,4 +16,14 @@
 
 .video__title {
     margin-bottom: 10px;
+}
+
+/* Media Query */
+
+@media (max-width: 768px) {
+    .video__inner {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
 }

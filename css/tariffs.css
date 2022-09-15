@@ -10,6 +10,7 @@
 .tariffs__csrds {
     display: flex;
     justify-content: space-evenly;
+    row-gap: 30px;
     
 }
 
@@ -49,3 +50,16 @@
     font-weight: 700;
     width: 80%;
 }
+
+@media (max-width: 768px) {
+    .tariffs__csrds {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tariffs__card {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+   
