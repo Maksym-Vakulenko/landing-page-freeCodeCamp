@@ -4,4 +4,48 @@
 
 .tariffs__title {
     padding-bottom: 20px;
+    text-align: center;
+}
+
+.tariffs__csrds {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.tariffs__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--bg-color-tariff-cards);
+    flex: 0 0 30%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.tariffs__card-img {
+    min-height: 141px;
+   
+}
+
+.tariffs__card-img img {
+    width: 109px;
+}
+
+.tariffs__card-title, 
+.tariffs__card-text,
+.tariffs__card-price {
+    margin-bottom: 30px;
+}
+
+.tariffs__card-text {
+    flex: 1 1 auto;
+}
+
+.tariffs__btn {
+    display: block;
+    padding: 11px 30px;
+    font-weight: 700;
+    width: 80%;
 }
