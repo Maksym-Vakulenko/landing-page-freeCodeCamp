@@ -5,10 +5,12 @@
 }
 
 :root {
+    scroll-behavior: smooth;
     /* Var */
     --main-font: 'Montserrat Alternates', sans-serif;
     --main-color-text: #3a3c43;
     --accent-color-text: #40c9ff;
+    --bg-menu-burger: #4b4d53;
     --bg-color: #D3E4CD;
     --bg-header: #292a2e;
     --bg-color-tariff-cards: #ffffff;
