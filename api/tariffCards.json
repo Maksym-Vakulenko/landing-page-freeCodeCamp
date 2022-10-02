@@ -1,0 +1,26 @@
+[
+    {
+       "id":1,
+       "img":"images/tariffs/tariffs-img-wordpress.svg",
+       "title":"WordPress-хостинг",
+       "text":"Ідеальний для блогів і не тільки",
+       "price":187.96,
+       "btnTxt":"Хочу"
+    },
+    {
+       "id":2,
+       "img":"images/tariffs/tariffs-img-virtual-hosting.svg",
+       "title":"Віртуальний хостинг",
+       "text":"Підходить для найрізноманітніших сайтів",
+       "price":180.01,
+       "btnTxt":"Хочу"
+    },
+    {
+       "id":3,
+       "img":"images/tariffs/tariffs-img-cloud-hosting.svg",
+       "title":"Хмарний хостинг",
+       "text":"Безвідмовний хостинг для успішних проектів",
+       "price":294.52,
+       "btnTxt":"Хочу"
+    }
+ ]
