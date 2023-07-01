@@ -1,12 +1,15 @@
-(async function () {
+(function () {
     document.querySelector('.header__burger').addEventListener('click', function () {
         this.classList.toggle('active');
         document.querySelector('.menu').classList.toggle('active');
         document.querySelector('body').classList.toggle('lock');
     });
-    
-    const response = await fetch('api/tariffCards.json');
-    const tariffCards = await response.json();
+
+    async function tariffCardsData () {
+        const response = await fetch('api/tariffCards.json');
+        const tariffCards = await response.json();
+        return tariffCards
+    }
     
     const tariffsCardsContainer = document.querySelector('.tariffs__csrds');
     
@@ -32,5 +35,5 @@
         }
     }
     
-    renderTariffCards(tariffCards);
+    renderTariffCards(tariffCardsData);
 })();
