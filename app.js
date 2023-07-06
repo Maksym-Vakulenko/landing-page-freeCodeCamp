@@ -1,11 +1,11 @@
-(function () {
+(async function () {
     document.querySelector('.header__burger').addEventListener('click', function () {
         this.classList.toggle('active');
         document.querySelector('.menu').classList.toggle('active');
         document.querySelector('body').classList.toggle('lock');
     });
 
-    async function tariffCardsData () {
+     function tariffCardsData () {
         const response = await fetch('api/tariffCards.json');
         const tariffCards = await response.json();
         return tariffCards
